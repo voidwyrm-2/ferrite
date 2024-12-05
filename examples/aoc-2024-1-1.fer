@@ -1,0 +1,13 @@
+# a solution to Adent of Code day 1, part 1 in Ferrite
+
+"input.txt" readf
+"\n" split
+
+\ "   " split delist intconv store intconv load tolist ;
+map
+
+\ store delist < if load delist switch else load delist end - ;
+map
+
+sum
+. cr

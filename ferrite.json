@@ -1,0 +1,25 @@
+{
+    "name": "ferrite",
+    "desc": "The Ferrite interpreter",
+    "flags": [
+        {
+            "sh": "v",
+            "lh": "version",
+            "required": false,
+            "help": "Shows the current Pasta version",
+            "type": "bool"
+        },
+        {
+            "type": "group",
+            "name": "run",
+            "desc": "Run a Ferrite('.fer') file",
+            "flags": []
+        },
+        {
+            "type": "group",
+            "name": "repl",
+            "desc": "Run the Ferrite REPL",
+            "flags": []
+        }
+    ]
+}
